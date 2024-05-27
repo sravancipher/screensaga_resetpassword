@@ -44,7 +44,7 @@ function App() {
           <label for="pwd" className="text-dark">Reset Password</label>
         </div>
         <div className="d-grid">
-        <button className="btn btn-danger">Update Password</button>
+        <button className="btn btn-danger">Reset Password</button>
       </div>
       </form>
       </div>
