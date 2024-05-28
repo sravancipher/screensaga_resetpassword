@@ -8,7 +8,7 @@ function App() {
   const[response,setResponse]=useState(false);
   async function resetpswd(e){
     e.preventDefault();
-    axios.put( `http://localhost:8081/user/updatepassword/${mail}/${password}`,{
+    axios.put( `https://screensagadb.up.railway.app/user/updatepassword/${mail}/${password}`,{
             
     header:{
        'Content-Type':'application/json'
