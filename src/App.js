@@ -15,7 +15,7 @@ function App() {
         }
         else{
             alert("The email address provided does not correspond to an existing account")
-            // setTimeout(()=>{},3000)
+            
         }
     })
     
